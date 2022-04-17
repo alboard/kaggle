@@ -1,0 +1,34 @@
+### Content Aware RecSys
+
+
+Your task is to create a system that can recommend movies to users based on the dataset found [here](https://www.kaggle.com/rounakbanik/the-movies-dataset/data). You will need to login to kaggle to download the data. The enriched MovieLens dataset contains the following files:
+
+
+* movies_metadata.csv: The main Movies Metadata file. Contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies.
+* keywords.csv: Contains the movie plot keywords for our MovieLens movies. Available in the form of a stringified JSON Object.
+* credits.csv: Consists of Cast and Crew Information for all our movies. Available in the form of a stringified JSON Object.
+* links.csv: The file that contains the TMDB and IMDB IDs of all the movies featured in the Full MovieLens dataset.
+* links_small.csv: Contains the TMDB and IMDB IDs of a small subset of 9,000 movies of the Full Dataset.
+* ratings_small.csv: The subset of 100,000 ratings from 700 users on 9,000 movies.
+* ratings.csv: The full ratings dataset.
+
+Besides having the usual user-interaction data, this dataset also has some textual metadata (either in the `metadata.csv` file or in the `keywords.csv` file). Whatever you use as part of your recommendation system, you must use some form of textual data as a feature in your model.
+
+
+We have defined a helper `recsys.py` file that would help you. It has some boiler plate defined but you need to fill out yourself and write some extra functions or two. You can also solve this using another programming language like Scala , the python code might help you by providing some pseudo-code.
+
+If you use extra libraries, please amend the provided `requirements.txt` file and this readme with instructions. Once everything is ready, we could use the tool by running:
+
+`python recsys.py --in-folder <path-to-data> --out-folder <path-to-model-destination>` , where
+	* `<path-to-data>` corresponds to the data containing the csv files
+	* `<path-to-model-destination>` corresponds to a folder where the trained model will be serialised to
+
+
+Your code in `recsys.py` should:
+* generate a training / eval / test split (and do any necessary data pre-processing)
+* train a model
+* print evaluation metrics
+* save it to a destination
+
+Once you are done, submit a pull request for evaluation.
+ 
