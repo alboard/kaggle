@@ -34,8 +34,10 @@ def train(in_folder: str, out_folder: str) -> None:
     Consume the data from the input folder to generate the model 
     and serialise it to the out_folder
     """
-    pass
-  
-
+    data, test_data=load_data(in_folder)
+    split_data(data)
+    model=train(in_folder, out_folder)
+    evaluate_model(model, test_data)
+    save_model(model, out_folder)
 if __name__ == '__main__':
   fire.Fire(train)
