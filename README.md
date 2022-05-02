@@ -5,5 +5,21 @@
 * The Python recommendation libraries (e.g. Surprise) did all but the text part of the task in a few lines but extending them looked gnarly …
 * So finally hurried e.g. hard-coding rather than parameterisation
 * I have learned much about Kaggle, Github, Collab and Recommender systems
+* So many examples just use the core numeric user, movie and ratings fields
 * Next time then :-)
 * Next time start with Git repo and scrapbook-style record all research, coding and related thoughts  
+
+# Postscript - other approaches to try:-
+* Google
+  * Sorted search
+* fast.ai
+  * Tabular or collab
+* Recsys library
+  * Old and cold  
+* scikit-learn
+  * Supports text
+  * Surprise
+    * Sparse
+* Turi Create
+* Vowpal Wabbit 
+* XGBoost?
