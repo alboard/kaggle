@@ -1,3 +1,7 @@
+# RHRN
+https://github.com/dD2405/BioScope-Recommendation-API/blob/040851de213ab5aaad0cd4da9a4db27188cf8d0f/Jupyter%20Notebook/movie_recommendation.ipynb
+https://github.com/keras-team/keras-io/blob/0be9a38b96e8dd85bc525a74babb614f38b179c7/examples/structured_data/movielens_recommendations_transformers.py
+
 # Notes
 * What I wanted to do was clone,  no-code, low code, Python framework a Notebook that met the requirement of a creating and pickling a model trained using movie lens ratings + text, save that as a Python script and overlay the load, task boilerplate on that - then with that attributed exploit in the bank  explore and improve
 * I failed to exploit as I could not find a fully suitable clone or environment in GitHub (should have tried GitLab and model zoo's too) , Kaggle, or Medium 
