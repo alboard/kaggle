@@ -5,6 +5,7 @@ This is close - need to unpick the MS recommender part though - https://github.c
 What I had hoped to do was feed a deep learning model with one-hot encoded categorical and Doc2Vec or Word2Vec vectorised single field binary soup of the rest - with bonus points for importing and using promotional movie images as metadata :-)
 
 # RHRN
+https://github.com/statisticianinstilettos/recmetrics/blob/master/example.ipynb - perfect for task
 https://towardsdatascience.com/from-ml-model-to-ml-pipeline-9f95c32c6512 - scikit linear rergression ratings prediction pipelines with numerical & categorical factors
 https://youtu.be/ZiKMIuYidY0 - same
 https://github.com/keras-team/keras-io/blob/0be9a38b96e8dd85bc525a74babb614f38b179c7/examples/structured_data/movielens_recommendations_transformers.py
